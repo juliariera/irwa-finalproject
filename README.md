@@ -5,9 +5,9 @@ Usage
 ------
 This repository contains 3 folders. The search-engine one contains the code and data to run the search engine. The first part of the notebook contains the code used to collect the data, then, there is an analysis of that data and finally, all the code to run the search engine. To only run the search engine using the previously collected data, run the imports cell and go directly to the "2. Search engine" part of the code. Then, all the code that follows is used to pre-process the data and build all the necessary things to create a search engine. The code to create the wordcloud and barplot is also there, although it does not have to be run when running the search engine. There are two types of ranking: the tf-idf classical one and an own ranking based also on the popularity of the tweets.
 
-In the notebook folder, we have the three notebooks, one for each research question. Only the first one is implemented. In this first RQ, it is asked to run the previously created search engine ranking by tf-idf and afterwards to create a word2vec (or, in fact, tweet2vec) representation of the tweets and use it along with cosine similarity also to rank the tweets. 
+In the notebook folder, we have the three notebooks, one for each research question. Only part of the first one and part of the third one are implemented. In this first RQ, it is asked to run the previously created search engine ranking by tf-idf and afterwards to create a word2vec (or, in fact, tweet2vec) representation of the tweets and use it along with cosine similarity also to rank the tweets. 
 
-Finally, the other-outputs folder contains two pdf documents with the output of each of the search engine strategies used in the first folder, that is, the classical one and the one with the own ranking taking into account the popularity. Both runned with the same query to compare them.
+Finally, the other-outputs folder contains two pdf documents with the output of each of the search engine strategies used in the first folder, that is, the classical one and the one with the own ranking taking into account the popularity. Both runned with the same query to compare them. In the third research question, a retweeted graph is build, splitted then by test and train sets. 
 
 Prerequisites
 ------
