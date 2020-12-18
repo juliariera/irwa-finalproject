@@ -11,8 +11,9 @@ Finally, the other-outputs folder contains two pdf documents with the output of 
 
 Prerequisites
 ------
-To be able to use the notebooks, tweepy, gensim and wordcloud must be downloaded. All the code is develop in Jupyter Notebook.
+To be able to use the notebooks, tweepy, gensim and wordcloud must be downloaded. All the code is develop in Jupyter Notebook. 
+The data is uploaded with [Git LFS (Large File Storage)](https://git-lfs.github.com/). You must have it installed in advance to be able to open the data files.
 
 Author
 ------
-[Júlia Riera Perramon](https://www.linkedin.com/in/julia-riera-perramon/) (julia.riera02@estudiant.upf.edu)
+Júlia Riera Perramon (julia.riera02@estudiant.upf.edu)
